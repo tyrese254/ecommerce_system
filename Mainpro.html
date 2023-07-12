@@ -1,0 +1,357 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="Main.css">
+      <link rel="shortcut icon" type="image/x-icon" href="letter-a (1).png">
+        <!--box icon-->
+   <link rel="stylesheet"
+   href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Link Swiper's CSS -->
+    <link
+       rel="stylesheet"
+       href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+     />
+     <script src="https://kit.fontawesome.com/d0cf82fbda.js" crossorigin="anonymous"></script>
+    <title>Asmart online shopping</title>
+  </head>
+<body>
+    <header>
+        <div> <a href="#" class="logo">
+             <i class='bx bxs-shopping-bag'></i><div class="h2">Asmart</div>
+         </a></div>
+         <div class="bounce">welcome to Asmart online Shopping website ,We're so glad you're here.Happy shopping!</div>
+         <div class="mobile">
+           <div class="button"> <button  id="myBtn"><i class='bx bx-cart-add'></i><button> Cart</div> 
+             <form  action="connect.php" method="POST" id="myModal" class="modal">
+                 <!-- Modal content -->
+                 <div class="modal-content">
+                   <span class="close">&times;</span>
+                   <a name="Cart"> <div class="cart-1" name="cart" >
+                     <img  src="cart.jpg">
+                     <center><h1>My Cart</h1></center>
+                     <hr>
+                     <div class="icon" id="cart"></div>
+                     <input type="submit"></input>
+                     <hr>
+                     <h2>Pay through Mpesa</h2>
+                     <div class="pay">
+                        <center><img  src="Pochi la Biashara poster template - Made with PosterMyWall.jpg" ></center> 
+                     </div>
+                     <h3>NB// Delivery fee :Ksh 100 </h3>
+                    <center><h3><i>within nairobi</i></h3></center> 
+                 </div>
+                 </div>
+                </form>
+         </div>
+         </header>
+<br>
+<br>
+<br>
+<h1 class="h1" >Products</h1>
+         <div  class="contain">
+          <div class="pro-container">
+           <div class="product">
+              <img id="image" src="5b0981ff-45f8-40c3-9372-32430a62aaea.webp">
+               <div class="des">
+                  <span >Necklace</span>
+                  <h5 >Fashion Women Necklace Korea Style New Butterfly Pendant Necklace Gift For Girl Cute Lovely Necklace </h5>
+                  <div class="align">
+                  <div id rating class="star">
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                  </div>
+                  <h4>Ksh 350</h4>
+              </div>
+                 </div>
+                 <button onclick="addItem('Fashion Women Necklace Korea Style New Butterfly Pendant Necklace Gift For Girl Cute Lovely Necklace', 350,'koreastyle.jpg')">Add to cart</button>
+  
+          </div>
+           <div class="product">
+              <img  src="715TLEvzxUS._AC_UY1000_.jpg">
+              <div class="des">
+              <span>Necklace</span>
+              <h5>Pink Golden Necklace for Women Women's Jewellery Women's Necklace Fashion Necklace Women's Fashion Accessories</h5>
+              <div class="align">
+              <div class="star">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+              </div>
+              <h4>Ksh 300 </h4>
+          </div>
+             </div>
+            <button onclick="addItem('Pink Golden Necklace for Women Womens Jewellery Womens Necklace Fashion Necklace Womens Fashion ', 300,'pentant.jpg')">Add to cart</button>
+          </div>
+           <div class="product">
+              <img  src="content_team_010818_52427_htc_running_shoes_hero2_lg.avif">
+              <div class="des">
+                  <span>Necklace</span>
+                  <h5>Men Bohemian Wolf Tooth Pendant Necklace Woven Vintage Handmade Cross Beads Stylish Tribal Design Tooth Rope Necklace</h5>
+                  <div class="align">
+                  <div class="star">
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                  </div>
+                  <h4>Ksh 400</h4>
+              </div>
+                 </div>
+                <button onclick="addItem('Men Bohemian Wolf Tooth Pendant Necklace Woven Vintage Handmade Cross Beads Stylish Tribal Design Tooth Rope Necklace', 400,'Wolf necklace.jpg')">Add to cart</button>
+          </div>
+           <div class="product">
+              <img  src="download.jpg">
+              <div class="des">
+                  <span>Necklace</span>
+                  <h5>Necklaces for women jewelry for women gifts for girls New Fashion Luxury Chain  Crystal Necklace Women Fashion Jewelry </h5>
+                  <div class="align">
+                  <div class="star">
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-stars'></i>
+                  </div>
+                  <h4>Ksh 150</h4>
+              </div>
+                 </div>
+                <button onclick="addItem('Ncklaces for women jewelry for women gifts for girls New Fashion Luxury Chain  Crystal Necklace Women Fashion Jewelry', 150,'cover.jpg')">Add to cart</button>
+          </div>
+              <div class="product">
+                  <img  src="men-555-black-fashion-lace-up-shoes-500x500.webp">
+                  <div class="des">
+                      <span>Necklace</span>
+                      <h5>Fashionable new products fashion, simple design temperament eight star pendant short metal circle necklace chain chain Silver</h5>
+                      <div class="align">
+                      <div class="star">
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                      </div>
+                      <h4>Kah 250</h4>
+                  </div>
+                     </div>
+                    <button onclick="addItem('Fashionable new products fashion, simple design temperament eight star pendant short metal circle necklace chain chain Silver', 250,'necklace.webp')">Add to cart</button>
+              </div>
+              <div class="product">
+                  <img  src="men-555-black-fashion-lace-up-shoes-500x500.webp">
+                  <div class="des">
+                      <span>Necklace</span>
+                      <h5>Vintage GothHeart Pendant  Clavicle Chain Necklace For Women Girl Punk Collares Aesthetic Jewelry Gifts Pink</h5>
+                      <div class="align">
+                      <div class="star">
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                      </div>
+                      <h4>Ksh 280</h4>
+                  </div>
+                     </div>
+                    <button onclick="addItem('Vintage GothHeart Pendant  Clavicle Chain Necklace For Women Girl Punk Collares Aesthetic Jewelry Gifts Pink', 280,'chain.jpg')">Add to cart</button>
+              </div>
+              <div class="product">
+                  <img  src="61zL7NqwAeS._AC_UY1000_.jpg">
+                  <div class="des">
+                      <span>Necklace</span>
+                      <h5>Women's one-arrow Pierced Necklace Simple Temperament Geometric Love Clavicle Chain Women jewelry</h5>
+                      <div class="align">
+                      <div class="star">
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                      </div>
+                      <h4>Ksh 250</h4>
+                  </div>
+                     </div>
+                    <button onclick="addItem('Womens one-arrow Pierced Necklace Simple Temperament Geometric Love Clavicle Chain Women jewelry', 250,'necklase1.png')">Add to cart</button>
+              </div>
+              <div class="product">
+                  <img  src="94ed73cd-50f3-4cec-920f-04196b9de8ae.webp">
+                  <div class="des">
+                      <span>necklace</span>
+                      <h5>Women Necklace Tiny Heart Choker Chain Love Lady Necklace Pendant Girl Lover Gift Jewellery gold </h5>
+                      <div class="align">
+                      <div class="star">
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                      </div>
+                      <h4>Ksh 200</h4>
+                  </div>
+                     </div>
+                    <button onclick="addItem('Womens one-arrow Pierced Necklace Simple Temperament Geometric Love Clavicle Chain', 200,'necklace2.jpg')">Add to cart</button>
+              </div>
+              <div class="product">
+                  <img  src="715TLEvzxUS._AC_UY1000_.jpg">
+                  <div class="des">
+                      <span>Bracelet</span>
+                      <h5>PAFEL Women Bracelets Fashion  Classic Jewellery Female Crystal Bracelet Valentines Gift Gold </h5>
+                      <div class="align">
+                      <div class="star">
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                      </div>
+                      <h4>Ksh 200</h4>
+                  </div>
+                     </div>
+                    <button onclick="addItem('Product 1PAFEL Women Bracelets Fashion  Classic Jewellery Female Crystal Bracelet Valentines Gift Gold', 200,'bracelet.png')">Add to cart</button>
+              </div>
+  
+              <div class="product">
+                  <img  src="air-jordan-1-black-white-panda-date-price.webp">
+                  <div class="des">
+                      <span>Bracelet</span>
+                      <h5>6pcs/sets Bohemian Beaded Bracelets for Women Pretty Flowers Leaf Hollow Out Geometry Adjuatble Tassel Jewelry style 01</h5>
+                      <div class="align">
+                      <div class="star">
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                      </div>
+                      <h4>Ksh 500</h4>
+                  </div>
+                     </div>
+                    <button onclick="addItem('6pcs/sets Bohemian Beaded Bracelets for Women Pretty Flowers Leaf Hollow Out Geometry Adjuatble Tassel Jewelry style', 500,'bracelet2.jpg')">Add to cart</button>
+              </div>
+  
+              <div class="product">
+                  <img  src="CW2288_111_P2.jpg">
+                  <div class="des">
+                      <span>Bracelet</span>
+                      <h5>Men's Leather Woven Bracelet Retro Black Wood Bead Bracelet Fashion Wristband Jewelry Accessories Brown one size</h5>
+                      <div class="align">
+                      <div class="star">
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                      </div>
+                      <h4>Ksh 400</h4>
+                  </div>
+                     </div>
+                    <button onclick="addItem('Mens Leather Woven Bracelet Retro Black Wood Bead Bracelet Fashion Wristband Jewelry Accessories Brown', 400,'necklace3.jpg')">Add to cart</button>
+              </div>
+  
+              <div class="product">
+                  <img  src="Fast-R-NITRO-Elite-Elektrocharged-Running-Shoes-Women.jpg">
+                   <div class="des">
+                      <span>Bracelet</span>
+                      <h5>4pcs/set Women Bracelets Bohemia Leaf Round Women Simple Geometric gold Jewellery</h5>
+                      <div class="align">
+                      <div class="star">
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                      </div>
+                      <h4>Ksh 350</h4>
+                  </div>
+                     </div>
+                    <button onclick="addItem('4pcs/set Women Bracelets Bohemia Leaf Round Women Simple Geometric gold Jewellery', 350,'bracelet4.jpg')">Add to cart</button>
+              </div>
+              </div>
+              </div>
+              <section id="newsletter" class="section-p1" class="section-m1">
+                <div class="newstext">
+                    <h4>Sign up for Newsletters</h4>
+                    <p>Get E-mail updates about our latest shop and <span>special offers</span>.
+                </div>
+                <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign up</button>
+                </div>
+            </section>
+            <footer class="section-p1">
+                    <div class="col">
+                        <br>
+                        <img src="circle company logo (1).png" class="log" alt="logo">  
+                        <h4>Contact</h4>
+                        <p><strong>Address</strong>771 Gitanga road,Nairobi</p>
+                        <p><strong>Phone</strong>0748930106 / 0775848170</p>
+                        <p><strong>Hours</strong>10am-7pm,Mon-Fri
+                    </div>
+                    <div class="col">
+                        <h4>About</h4>
+                        <a href="#">About us</a>
+                        <a href="#">Delivery Infomation</a>
+                        <a href="#">privacy policy</a>
+                        <a href="#">Tems & Condition</a>
+                        <a href="#">Contact us</a>
+                    </div>
+                    <div class="col">
+                        <h4>Account</h4>
+                        <a href="#">My Account</a>
+                        <a href="#">Sign In</a>
+                        <a href="#Cart">View cart</a>
+                        <a href="#">My wishlist</a>
+                        <a href="#">Track My Order</a>
+                        <a href="#">Help</a>
+                    </div>
+                    <div class="col">
+                        <div class="follow">
+                        <h4>Follow Us</h4>
+                        <div class="icons">
+                            <i class='bx bxl-facebook-circle'></i>
+                            <i class='bx bxl-twitter'></i>
+                            <i class='bx bxl-instagram'></i>
+                            <i class='bx bxl-whatsapp' ></i>
+                            <i class='bx bxl-youtube'></i>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="copyright">
+                        <p>@ 2022,Asmart.com Ruiru</p>
+                    </div>
+                </footer>  
+                <script>
+                    // Get the modal
+                    var modal = document.getElementById("myModal");
+                    
+                    // Get the button that opens the modal
+                    var btn = document.getElementById("myBtn");
+                    
+                    // Get the <span> element that closes the modal
+                    var span = document.getElementsByClassName("close")[0];
+                    
+                    // When the user clicks the button, open the modal 
+                    btn.onclick = function() {
+                      modal.style.display = "block";
+                    }
+                    
+                    // When the user clicks on <span> (x), close the modal
+                    span.onclick = function() {
+                      modal.style.display = "none";
+                    }
+                    
+                    // When the user clicks anywhere outside of the modal, close it
+                    window.onclick = function(event) {
+                      if (event.target == modal) {
+                        modal.style.display = "none";
+                      }
+                    }
+                    </script>    
+    <script src="shoppingCart.js"></script>
+</body>
+</html>
